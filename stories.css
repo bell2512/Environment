@@ -1,0 +1,9 @@
+#img {
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    bottom: 300px;
+    color: black
+}
