@@ -1,0 +1,14 @@
+#image {
+    position: relative;
+}
+
+.btns {
+    text-align: center;
+}
+
+#title {
+    position: absolute;
+    bottom: 300px;
+    color: red
+    /* top:100px */
+}
