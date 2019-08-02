@@ -2,8 +2,8 @@
     position: relative;
 }
 
-#text {
+#txt {
     position: absolute;
-    bottom: 300px;
+    bottom: 400px;
     color: black
 }
