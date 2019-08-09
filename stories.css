@@ -2,8 +2,155 @@
     position: relative;
 }
 
-#txt {
+#txt1 {
+    position: absolute;
+    bottom: 250px;
+    color:white;
+    font-size: 35px
+}
+
+#txt2 {
+    position: absolute;
+    bottom: -55px;
+    color:white;
+    font-size: 35px
+}
+
+#n {
+    font-size: 150%;
+}
+
+#n-img {
+    width: 100%;
+    height: 550px;
+
+}
+
+#image {
+    position: relative;
+}
+
+#title {
+    position: absolute;
+    bottom: 750px;
+    left: 425px;
+    color: black;
+    font-size: 1.75cm
+    /* top:100px */
+}
+#buttons {
     position: absolute;
     bottom: 400px;
+    left: 200px;
+    background-color: black;
+}    
+#stories_btn:hover {color: blue}
+#stories_btn {
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    color: black ;
+    padding: 20px 50px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: -100px
+}
+
+#wild_btn:hover {color: blue}
+#wild_btn {
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 20px 50px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 200px
+}
+
+#suggest_btn:hover {color:blue}
+#suggest_btn {
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 20px 50px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 500px
+}
+    
+#about_btn:hover {color:blue}
+#about_btn {
+    overflow: hidden;
+    background-color: transparent ;
+    border: none;
+    color: black;
+    padding: 20px 50px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 800px;
+    bottom: 500px;
+    color: black
+}
+#pollution_img {
+    position: relative;
+}
+
+
+#pollution_txt {
+    position: absolute;
+    bottom: 200px;
+    color: white
+}
+#elephant_img {
+    position: relative;
+}
+
+
+#elephant_txt {
+    position: absolute;
+    bottom: -200px;
+    color: black
+}
+
+#Samoa_img {
+    position: relative;
+}
+
+
+#Samoa_txt {
+    position: absolute;
+    bottom: -700px;
+    color: black
+}
+#Rangers_img {
+    position: relative;
+}
+
+
+#Rangers_txt {
+    position: absolute;
+    bottom: -1300px;
     color: black
 }
