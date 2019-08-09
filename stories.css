@@ -23,8 +23,33 @@
 #n-img {
     width: 100%;
     height: 550px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+
+#n-txt {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+  }
 
 #image {
     position: relative;
@@ -38,18 +63,26 @@
     font-size: 1.75cm
     /* top:100px */
 }
+
+#n-buttons {
+    position: absolute;
+    bottom: 100% ;
+    left: 200px;
+}
+
 #buttons {
     position: absolute;
-    bottom: 400px;
+    bottom: 100% ;
     left: 200px;
     background-color: black;
-}    
+}
+
 #stories_btn:hover {color: blue}
 #stories_btn {
     overflow: hidden;
     background-color: transparent;
     border: none;
-    color: black ;
+    color: black;
     padding: 20px 50px;
     text-align: left;
     text-decoration: none;
@@ -58,7 +91,7 @@
     margin: 4px 2px;
     cursor: pointer;
     position: absolute;
-    left: -100px
+    left: -100px;
 }
 
 #wild_btn:hover {color: blue}
@@ -110,47 +143,36 @@
     cursor: pointer;
     position: absolute;
     left: 800px;
-    bottom: 500px;
-    color: black
-}
-#pollution_img {
-    position: relative;
 }
 
 
-#pollution_txt {
-    position: absolute;
-    bottom: 200px;
-    color: white
-}
-#elephant_img {
-    position: relative;
-}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  #n-img {
+    /* The image used */
+    
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  
 
 
-#elephant_txt {
-    position: absolute;
-    bottom: -200px;
-    color: black
-}
 
-#Samoa_img {
-    position: relative;
-}
-
-
-#Samoa_txt {
-    position: absolute;
-    bottom: -700px;
-    color: black
-}
-#Rangers_img {
-    position: relative;
-}
-
-
-#Rangers_txt {
-    position: absolute;
-    bottom: -1300px;
-    color: black
-}
