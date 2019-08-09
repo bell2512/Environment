@@ -109,5 +109,48 @@
     margin: 4px 2px;
     cursor: pointer;
     position: absolute;
-    left: 800px
+    left: 800px;
+    bottom: 500px;
+    color: black
+}
+#pollution_img {
+    position: relative;
+}
+
+
+#pollution_txt {
+    position: absolute;
+    bottom: 200px;
+    color: white
+}
+#elephant_img {
+    position: relative;
+}
+
+
+#elephant_txt {
+    position: absolute;
+    bottom: -200px;
+    color: black
+}
+
+#Samoa_img {
+    position: relative;
+}
+
+
+#Samoa_txt {
+    position: absolute;
+    bottom: -700px;
+    color: black
+}
+#Rangers_img {
+    position: relative;
+}
+
+
+#Rangers_txt {
+    position: absolute;
+    bottom: -1300px;
+    color: black
 }
