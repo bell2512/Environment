@@ -16,7 +16,7 @@
     left: 200px;
     background-color: black;
 }    
-#stories_btn:hover {color: blue}
+#stories_btn:hover {color: red}
 #stories_btn {
     overflow: hidden;
     background-color: transparent;
@@ -33,7 +33,7 @@
     left: -100px
 }
 
-#wild_btn:hover {color: blue}
+#wild_btn:hover {color:red}
 #wild_btn {
     overflow: hidden;
     background-color: transparent;
@@ -50,7 +50,7 @@
     left: 200px
 }
 
-#suggest_btn:hover {color:blue}
+#suggest_btn:hover {color:red}
 #suggest_btn {
     overflow: hidden;
     background-color: transparent;
@@ -67,7 +67,7 @@
     left: 500px
 }
     
-#about_btn:hover {color:blue}
+#about_btn:hover {color:red}
 #about_btn {
     overflow: hidden;
     background-color: transparent ;
