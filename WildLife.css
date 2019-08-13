@@ -1,0 +1,15 @@
+#panda_btn:hover {color: blue}
+#panda_btn {
+    overflow: hidden;
+    background-color: green;
+    border: none;
+    color: black ;
+    padding: 10px 100px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: -100px;
