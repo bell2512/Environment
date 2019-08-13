@@ -3,9 +3,16 @@ body {
 
 }
 
+#container {
+    position: relative
+}
+
 #crossword {
+    /* position: absolute; */
+    margin-left: 10px;
     min-width: 500px;
     float: left;
+
 }
 
 .row-number {
@@ -106,7 +113,8 @@ body {
     float: left;
     margin-left: 35px;
     line-height: 1.5;
-
+    width: 35%;
+    position: absolute
 }
 
 #questions ul {
