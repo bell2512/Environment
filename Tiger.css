@@ -1,0 +1,29 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  #center-img {
+      position: relative;
+      left: 170px;
+  }
+  #right-img {
+      position: relative;
+      left: 300px;
+      
+  }
+  .basic {
+      display: inline-block
+  }
+
+  #info_img {
+      position: relative;
+      left: 200px
+  }
+
+  #appearence_img {
+      position: relative;
+      left:450px
+  }
