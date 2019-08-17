@@ -19,13 +19,14 @@ var row9 = new CrosswordRow("CACBONDIOXIDE", "");
 var row10 = new CrosswordRow("RHINO", "");
 var row11 = new CrosswordRow("UNEP", "");
 var row12 = new CrosswordRow("WATER", "");
-var Crossword = [row0, row1, row2, row3, row4, row5, row6];
+var Crossword = [row0, row1, row2, row3, row4, row5, row6, row7, row8, row9, row10, row11, row12   ];
 
 //number of correctly filled out rows
 var numberChecker = 0;
 
 //skipping to next row if current row has a letter entered
 function skipToNext(elem) {
+  console.log()
     var nextElemIndex = parseFloat(elem.getAttribute('tabindex')) + 1;
     document.querySelector('[tabindex="' + nextElemIndex + '"]').focus();
 }
