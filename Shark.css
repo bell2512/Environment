@@ -1,0 +1,28 @@
+body {
+    background-color: whitesmoke
+ }
+
+#center-img {
+    position: relative;
+    left: 150px;
+}
+#right-img {
+    position: relative;
+    left: 300px;
+}
+.basic {
+    display: inline-block
+}
+#basic_img {
+    position: relative;
+    left: 250px;
+}
+#info_pic {
+    position: relative;
+    left: 500px;
+}
+
+#appearence_img {
+    position: relative;
+    left: 600px
+}
