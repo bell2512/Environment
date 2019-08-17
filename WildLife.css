@@ -5,6 +5,8 @@ body {
 
 #panda_pic{
    position: relative;
+   top: 20%;
+   left: 0%;
 }
 
 
@@ -13,19 +15,19 @@ body {
  
  #tiger_pic {
     position: relative;
-    top: -340px;
-    left: 50px
+    top: 100%;
+    left: 00%;
     
  }
 
  
  #elephant_pic {
    position: relative;
-   top: -680px;
-   left: 1100px;
+   top: 20%;
+   left: 20%;
  }
 #shark_pic {
    position: relative;
-   left: -435px;
-   top: -10px
+   top: 50%;
+    left: 00%;
 }
