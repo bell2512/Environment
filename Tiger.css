@@ -5,6 +5,10 @@
     width: 50%;
   }
   
+  body {
+    background-color: whitesmoke
+ }
+  
   #center-img {
       position: relative;
       left: 170px;
