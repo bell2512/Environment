@@ -4,127 +4,219 @@ body {
 
 #img {
     position: relative;
+    align-self: left
+}
+
+#txt-hd1 {
+    position: absolute;
+    top: 27.1%;
+    left: 33%;
+    font-size: 110%;
+    margin:0%
+}
+
+#txt--hd1 {
+    position: absolute;
+    top: 39.7%;
+    font-size: 107%;
+    left: 33%;
+    margin: 0%
+}
+
+#txt-hd2 {
+    position: absolute;
+    top: 76.1%;
+    left: 33%;
+    font-size: 110%;
+    margin:0%
+}
+
+#txt--hd2 {
+    position: absolute;
+    top: 88.7%;
+    left: 33%;
+    font-size: 107%;
+    margin: 0%
+}
+
+#txt-hd3 {
+    position: absolute;
+    top: 128%;
+    left: 33%;
+    font-size: 110%;
+    margin:0%
+}
+
+#txt--hd3 {
+    position: absolute;
+    top: 140.8%;
+    left: 33%;
+    font-size: 107%;
+    margin: 0%
+}
+
+#txt-hd4 {
+    position: absolute;
+    top: 178%;
+    left: 33%;
+    font-size: 110%;
+    margin:0%
+}
+
+#txt--hd4 {
+    position: absolute;
+    top: 187%;
+    left: 33%;
+    font-size: 107%;
+    margin: 0%
+}
+
+#txt-hd5 {
+    position: absolute;
+    top: 226.5%;
+    left: 33%;
+    font-size: 110%;
+    margin:0%
+}
+
+#txt--hd5 {
+    position: absolute;
+    top: 236%;
+    left: 33%;
+    font-size: 107%;
+    margin: 0%
+}
+
+#txt-hd6 {
+    position: absolute;
+    top: 268.6%;
+    left: 33%;
+    font-size: 110%;
+    margin:0%
+}
+
+#txt--hd6 {
+    position: absolute;
+    top: 285%;
+    left: 33%;
+    font-size: 107%;
+    margin: 0%
 }
 
 #txt1 {
     position: absolute;
-    bottom: 250px;
-    font-size: 30px;
+    bottom: 20%;
+    font-size: 140%;
     color: white;
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border: 3px solid #f1f1f1;
-    top: 50%;
-    left: 23%;
+    top: 40%;
+    left: 16%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 50%;
-    padding: 20px;
+    padding: 0.8%;
     text-align: left;
-    height: 18%;
-    width: 45%
+    height: 12%;
+    width: 30%;
+    margin: 0% 
 }
 
 #txt2 {
     position: absolute;
-    bottom: -55px;
-    color:white;
-    font-size: 30px;
+    bottom: 20%;
+    color:white; 
+    font-size: 140%;
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border: 3px solid #f1f1f1;
-    top: 50%;   
-    left: 75%;
+    top: 85.5%;   
+    left: 16%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 50%;
-    padding: 20px;
+    padding: 0.8%;
     text-align: left;
-    height: 18%;
-    width: 45%
+    height: 12%;
+    width: 30%; 
 } 
 
 #txt3 {
     position: absolute;
-    bottom: -55px;
+    /* bottom: -55px; */
     color:white;
-    font-size: 30px;
-    background-color: rgb(0,0,0); 
+    font-size: 140%;
+    background-color: rgb(0,0,0);  
     background-color: rgba(0,0,0, 0.4);
     border: 3px solid #f1f1f1;
-    top: 100%;   
-    left: 23%;
+    top: 137.4%;   
+    left: 16%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 50%;
-    padding: 20px;
+    width: 30%;
+    padding: 0.7%;
     text-align: left;
-    height: 13%;
-    width: 45%
+    height: 7%; 
 } 
 
 #txt4 {
     position: absolute;
-    bottom: -55px;
+    /* bottom: -55px; */
     color:white;
-    font-size: 30px;
-    background-color: rgb(0,0,0); 
+    font-size: 140%;
+     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border: 3px solid #f1f1f1;
-    top: 100%;   
-    left: 75%;
+    top: 183.8%;   
+    left: 16%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 50%;
-    padding: 20px;
+    padding: 0.8%;
     text-align: left;
-    height: 18%;
-    width: 45%
+    height: 12%;
+    width: 30% 
 } 
 
 #txt5 {
     position: absolute;
-    bottom: -55px;
+    bottom: -100%;
     color:white;
-    font-size: 30px;
-    background-color: rgb(0,0,0); 
+    font-size: 140%;
+     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border: 3px solid #f1f1f1;
-    top: 150%;   
-    left: 23%;
+    top: 231%;   
+    left: 16%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 50%;
-    padding: 20px;
+    padding: 0.7%;
     text-align: left;
-    height: 22%;
-    width: 45%
+    height: 15.5%;
+    width: 30% 
 } 
 
 #txt6 {
     position: absolute;
-    bottom: -55px;
+    /* bottom: -55px; */
     color:white;
-    font-size: 30px;
+    font-size: 140%;
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border: 3px solid #f1f1f1;
-    top: 150%;   
-    left: 75%;
+    top: 283%;   
+    left: 16%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 50%;
-    padding: 20px;
+    padding: 0.7%;
     text-align: left;
-    height: 18%;
-    width: 45%
+    height: 11%;
+    width: 30% 
 } 
 
 #n-txt {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
-    font-weight: bold;
+    font-weight: bold; 
     border: 3px solid #f1f1f1;
     position: absolute;
     top: 30%;
@@ -134,7 +226,7 @@ body {
     width: 80%;
     padding: 20px;
     text-align: left;
-    font-size: 300%;   
+    font-size: 300%;    
   }
 
 
@@ -264,59 +356,40 @@ body, html {
     box-sizing: border-box;
   }
   
-  #n-img {
+   /* #n-img { 
     /* The image used */
     
     
     /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
     
     /* Full height */    
     /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+  /* } */
   
   /* Position text in the middle of the page/image */
   
-  * {
-    box-sizing: border-box;
-  }
-  
-  .img-line1 {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-    /* Clearfix (clear floats) */
-  .img-line1::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+   /* * { 
+     box-sizing: border-box; 
+   } */
+   
+/* #extra {
+    color: red;
+    text-decoration: none;
 
-  .img-line2 {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-    /* Clearfix (clear floats) */
-  .img-line2::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+}
+   */
+ 
 
-  .img-line3 {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-    /* Clearfix (clear floats) */
-  .img-line3::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
+
+
+
+
+
+
+
