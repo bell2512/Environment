@@ -4,28 +4,24 @@ body {
 
 
 #panda_pic{
-   position: relative;
+   top: 25%;
+   left:25%;
+   
 }
-
-
-
-
- 
  #tiger_pic {
-    position: relative;
-    top: -340px;
-    left: 50px
+  
+    top: 25%;
+    left: 25%;
     
  }
 
  
  #elephant_pic {
-   position: relative;
-   top: -680px;
-   left: 1100px;
+   
+   top: 30%;
+   left: 30%;
  }
 #shark_pic {
-   position: relative;
-   left: -435px;
-   top: -10px
-}
+  
+   left: 25%;
+   top: 25%;
