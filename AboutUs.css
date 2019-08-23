@@ -1,0 +1,9 @@
+#title-pic {
+    position: relative;
+}
+#title {
+    position: absolute;
+    top: 100px;
+    left: -10px;
+    color: white;
+}
