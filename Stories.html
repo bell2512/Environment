@@ -9,60 +9,147 @@
     <title>Stories</title>
 </head>
 
-<!-- <style>
-    .btns {
-        text-align: center;
-    }
-</style> -->
-<div id="image">
-    <img src="topimg.jpg" alt="euhf" height="150" width="100%">
-    <div id="title">
-        <i>ENVIRONMENT</i>
-    </div>
-    <div id="buttons">
-        <a href="Stories.html" target="__blank"><button id="stories_btn" ><i>Tin tức</i></button></a> 
-        <a href="WildLife.html" target="__blank"><button id="wild_btn" ><i>Khám phá</i></button></a> 
-        <a href="Suggestion.html" target="__blank"><button id="suggest_btn" ><i>Gợi ý</i></button></a> 
-        <a href="game.html" target="__blank"><button id="about_btn"><i>Kiến thức</i></button></a>
-    </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="Environment.html">Trang chủ</a>
+  <a href="Stories.html">Tin tức</a>
+  <a href="WildLife.html">Khám phá</a>
+  <a href="Suggestion.html">Gợi ý</a>
+  <a href="game.html">Kiến thức</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
 </div>
+      
+<p></p>
 
 <body>
     <div id="text-image1" class="img-line1">
         <img border="0" alt="trh"
             src="http://kenhthoitiet.vn/wp-content/uploads/2019/04/alaska.1jpg.jpg" width=100% height="300" alt="dkf" id="img">
-        <p id="txt1">Băng lạnh nhất Mỹ nóng kỷ lục, băng trên biển tan chảy hoàn toàn</p>
+        <p id="txt1">Bang lạnh nhất Mỹ nóng kỷ lục, băng trên biển tan chảy hoàn toàn</p>
     </div>
+
+<p></p>  
 
     <div id="text-image2" class="img-line1">
         <img src="https://media.tuoitrethudo.com.vn/files/nonghoaichau/2019/08/01/2-1804.jpg"
-            width=100% height="300" alt="dkdf" id="img">
+            width=33% height="300" alt="dkdf" id="img"><b id="txt-hd2">Người dân Ethiopia trồng 350 triệu cây con trong chiến <br> dịch phủ xanh do chính phủ phát động, phá vỡ kỷ lục 66 <br> triệu cây của Ấn Độ năm 2017. </b>
+            <p id="txt--hd2">Sáng kiến đầy tham vọng của Thủ tướng Abiy Ahmed nhằm <br> giúp khôi phục lại cảnh quan của đất nước vốn bị tàn phá nặng <br> nề.<a href="n2.html">Xem thêm</a> </p>
         <p id="txt2" class="img-line1">Ethiopia lập kỷ lục trồng trên 350 triệu cây xanh trong một ngày'</p>
     </div>
-
+<p></p>
     <div id="text-image3" class="img-line2">
         <img src="https://www.unenvironment.org/sites/default/files/styles/article_billboard_image/public/2019-08/elephant-3426522_1920.jpg?itok=Fd-cAToa"
-            width=100% height="300" alt="dekf" id="img">
+            width=33% height="300" alt="dekf" id="img"><b id="txt-hd3">Đệ nhất phu nhân Kenya Margaret Kenyatta tái khẳng định <br> nước này thúc giục việc đóng cửa tất cả các thị trường <br> buôn bán ngà voi trên toàn thế giới.</b>
+            <p id="txt--hd3">Bà cho biết Kenya sẽ tiếp tục chiến dịch chống lại việc mở lại thị <br> trường cho các chiến lợi phẩm săn bắn, đặc biệt là ngà voi.<a href="n3.html">Xem thêm</a> </p>
         <p id="txt3" class="img-line2">Kenya thúc giục cấm buôn bán ngà voi</p>
     </div>
-
+<p></p>
     <div id="text-image4" class="img-line2">
             <img src="https://www.brandsvietnam.com/upload/forum2/2019/06/CocaCola1_1559706359.jpg"
-            width=100% height="300" alt="dekf" id="img">
-            <p id="txt4" class="img-line2">Coca-Cola và những billboard bảo vệ môi trường đầy sáng tạo</p>
+            width=33% height="300" alt="dekf" id="img"><b id="txt-hd4">Chiến dịch quảng cáo ngoài trời thể hiện nỗ lực bảo vệ môi <br> trường của Coca-cola. </b>
+            <p id="txt--hd4">Coca-Cola đang nỗ lực hết sức để hạn chế phần rác thải của mình <br> ra ngoài môi trường. Công ty đã thực hiện một phần cam kết sản xuất <br> bao bì có thể tái chế 100% vào năm 2025.<a href="n4.html">Xem thêm</a> </p>        
+        <p id="txt4" class="img-line2">Coca-Cola và những billboard bảo vệ môi trường đầy sáng tạo</p>
     </div>
-
-    <div id="text-image5" class="img-line3">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8UF79HwALf5X-wkAt2HYhAHyIIF7STibEzBT7D9pQJXReuc9ecw"
-        width=100% height="300" alt="dekf" id="img">
-       <p id="txt5" class="1mg-line3">Sự kiện trăm năm có một: Cá mập khổng lồ có hành vi kỳ lạ, khoa học giải thích ra sao?</p> 
+<p></p>  
+<p></p>
+     <div id="text-image5" class="img-line3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8UF79HwALf5X-wkAt2HYhAHyIIF7STibEzBT7D9pQJXReuc9ecw"
+            width=33% height="300" alt="dekf" id="img"><b id="txt-hd5">Nặng 2,5 tấn, Deep Blue được xem là con cá mập trắng lớn <br> nhất từng được phát hiện ngày nay.</b>
+            <p id="txt--hd5">Con cá mập nổi tiếng có tên Deep Blue và hai con cá mập cái to <br> lớn khác đã được các nhà khoa học phát hiện thấy khi chúng xuất <br> hiện ở vùng biển Hawaii, đây là một sự tập trung rất hiếm thấy...<a href="n5.html">Xem thêm</a> </p>
+        <p id="txt5" class="1mg-line3">Sự kiện trăm năm có một: Cá mập khổng lồ có hành vi kỳ lạ, khoa học giải thích ra sao?</p> 
     </div>
-
+<p></p>
     <div id="text-image6" class="img-line3">
-        <img src="http://ecoglobal.com.vn/uploaded/2019/02/Th%E1%BA%BF%20gi%E1%BB%9Bi%20%C4%91ang%20tr%E1%BA%A3i%20qua%20nh%E1%BB%AFng%20n%C4%83m%20n%C3%B3ng%20nh%E1%BA%A5t%20trong%20l%E1%BB%8Bch%20s%E1%BB%AD.jpg" width=100% height="300" alt="df" id="img">
+            <img src="http://ecoglobal.com.vn/uploaded/2019/02/Th%E1%BA%BF%20gi%E1%BB%9Bi%20%C4%91ang%20tr%E1%BA%A3i%20qua%20nh%E1%BB%AFng%20n%C4%83m%20n%C3%B3ng%20nh%E1%BA%A5t%20trong%20l%E1%BB%8Bch%20s%E1%BB%AD.jpg" 
+            width=33% height="300" alt="df" id="img"><b id="txt-hd6">(TBTCO) - Tổ chức Khí tượng thế giới (WMO), cơ quan thuộc <br> Liên Hợp quốc (LHQ) cho biết 4 năm vừa qua được coi là <br> những năm nóng nhất kể từ khi thế giới bắt đầu cập nhật hồ <br> sơ nhiệt độ toàn cầu.</b>
+            <p id="txt--hd6">Theo báo cáo mới được công bố, tháng 11/2018 là thời điểm đánh dấu <br> năm thứ 4 liên tiếp nóng nhất trong lịch sử khí hậu được ghi nhận, nhấn <br> mạnh tính cấp bách cần hành động để hạn chế sự nóng lên của Trái Đất.<a href="n6.html">Xem thêm</a></p>
         <p id="txt6" class="img-line3">Thế giới đang trải qua những năm nóng nhất trong lịch sử</p>
     </div>
-
-    <script src="stories.js"></script>
+<p></p>
+    <script src="stories.js"></script> 
 </body>
-</html>
+</html> 
